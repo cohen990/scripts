@@ -25,3 +25,8 @@ echo '{
 mkdir src
 touch src/app.ts
 echo "expect(true).toBe(false);" > src/app.test.ts
+
+npm install -D jest
+npm install -D ts-jest
+npx ts-jest config:init
+npx jest
