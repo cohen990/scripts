@@ -21,6 +21,7 @@ echo '{
 }' > tsconfig.json
 
 ./node_modules/.bin/tslint --init
+mv tslint.json .tslintrc
 
 mkdir src
 touch src/app.ts
