@@ -5,8 +5,7 @@ npm init -y
 npm install -D typescript
 npm install -D tslint
 
-npm install express -S
-npm install @types/express -D
+npm install @types/jest -D
 
 echo '{
   "compilerOptions": {
