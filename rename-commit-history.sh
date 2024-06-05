@@ -1,7 +1,7 @@
 export FILTER_BRANCH_SQUELCH_WARNING=1
 git filter-branch --env-filter '
 OLD_EMAIL='"$1"'
-NEW_NAME='"$2"'
+NEW_NAME="'"$2"'"
 NEW_EMAIL='"$3"'
 if [ "$GIT_COMMITTER_EMAIL" = "$OLD_EMAIL" ]
 then
