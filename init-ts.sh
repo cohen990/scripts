@@ -6,14 +6,13 @@ npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugi
 
 echo '{
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "nodenext",
     "esModuleInterop": true,
-    "target": "es6",
+    "target": "esnext",
     "moduleResolution": "node",
     "sourceMap": true,
     "outDir": "dist"
-  },
-  "lib": ["es2015"]
+  }
 }' > tsconfig.json
 
 echo 'module.exports = {
