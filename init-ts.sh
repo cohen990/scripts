@@ -31,3 +31,5 @@ echo "expect(true).toBe(false);" > src/app.test.ts
 
 npx ts-jest config:init
 npx jest
+
+sed -i "s/\"test\":.*/\"test\": \"jest\"/" package.json
