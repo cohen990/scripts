@@ -9,7 +9,7 @@ echo '{
     "module": "nodenext",
     "esModuleInterop": true,
     "target": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "NodeNext",
     "sourceMap": true,
     "outDir": "dist"
   }
